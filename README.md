@@ -10,11 +10,13 @@ Generates an Excel output file providing the origins of the subfractions of
 each experimentally determined peptide, if possible.
 
 
-Dependencies:   xlsxwriter  (python-xlsxwriter)
-
 Author:         Dr German Leonov
+
                 University of York
+
                 leonov89@gmail.com
                 
+
 Created:        29/02/2020
+
 Last modified:  29/02/2020
