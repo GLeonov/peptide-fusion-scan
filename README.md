@@ -6,12 +6,8 @@ Using a set of experimentally determined peptides (by MS/MS), this application
 partitions each peptide into sub-fragments and determines their potential
 origin from a reference library of amino acid sequences (FASTA format).
 
-Generates an Excel output file providing the origins of the subfractions of
-each experimentally determined peptide, if possible.
+Generates outputs segmenting by relevant groups of interest.
 
-Author:         Dr German Leonov
-                University of York
-                leonov89@gmail.com
+Author: Dr German Leonov, University of York, leonov89@gmail.com
 
-Created:        29/02/2020
-Last modified:  29/02/2020
+Last updated: 29/02/2020
