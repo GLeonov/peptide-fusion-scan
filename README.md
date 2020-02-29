@@ -9,5 +9,3 @@ origin from a reference library of amino acid sequences (FASTA format).
 Generates outputs segmenting by relevant groups of interest.
 
 Author: Dr German Leonov, University of York, leonov89@gmail.com
-
-Last updated: 29/02/2020
