@@ -1,0 +1,11 @@
+Peptide,Length,ProteinID,Fragment 1,Match 1 Start,Match 1 Stop,Cis Distance,Fragment 2,Match 2 Start,Match 2 Stop,Scan,ALCScore,Origin,ParentID,Direction,Fused Peptide
+LHHHKPMAPSK,11,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,3997,54,de novo non-matched,3db6a34a-07fc-4617-ab93-4968f203af13,N/A,N/A
+LHSKEGVHFTK,11,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,3949,51,de novo non-matched,aa79a853-89ad-4fd5-886e-29c7c37381a1,N/A,N/A
+LHHHKPAMPSK,11,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,3997,53,de novo non-matched,7d488b75-60d8-4806-a7e6-361c026d10ba,N/A,N/A
+LHHHKAPMPSK,11,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,3997,52,de novo non-matched,8411ff95-89d1-4c9b-abe2-d954fa970bbd,N/A,N/A
+LHSKEVGHFTK,11,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,3949,52,de novo non-matched,d125013f-09b0-4d7f-b32f-07c1edf9e0e9,N/A,N/A
+LHSKFGAFFTK,11,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,3949,56,de novo non-matched,116978cc-364d-4694-9f26-a079b7cb0ea3,N/A,N/A
+LHSKFQFTFK,10,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,3949,66,de novo non-matched,26b7619f-fd58-416b-8dbb-f58ed43aac78,N/A,N/A
+LHSKFQFFTK,10,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,3949,66,de novo non-matched,6caa6bb5-c122-4bb5-8dbb-ccffb28db7f4,N/A,N/A
+LTQTGSADHAVKDR,14,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,4041,52,de novo non-matched,a814d147-0c03-4cd4-8e03-4f53e7a5d29b,N/A,N/A
+TLQTGSADHAVKDR,14,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,4041,56,de novo non-matched,87c60628-f365-41ed-8aea-d26b92a15c5f,N/A,N/A
