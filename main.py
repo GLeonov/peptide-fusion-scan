@@ -74,7 +74,7 @@ def run(fused_peptide_candidates, ref_db):
 
     # setup jobs
     jobs = []
-    for n_peptide, peptide in enumerate(fused_peptide_candidates[:10]):
+    for n_peptide, peptide in enumerate(fused_peptide_candidates[:1000]): # TESTING: currently limited to 1000 first peptides for testing
         job = multiprocessing.Process(target=fused_peptides.find_peptide_fusions,
                                       args=(config.parameters.experiment_name,
                                             peptide,
