@@ -2,8 +2,8 @@
 Extracts peptides post-hoc peptide fusion scan.
 
 Examples:
-python3 extract_unmatched_peptides_post-hoc.py -u --experiment_name N1_Normal --all_denovo_file data/N1_Normal_all_de_novo.csv --db_matched_file data/N1_Normal_DB-matched_peptides.csv --results_file data/N1_Normal_CONTROL_full_proteome_scan.xls --reference_proteome_file ../data/SPHu.fasta
-python3 extract_unmatched_peptides_post-hoc.py -u --experiment_name C6_chRCC --all_denovo_file data/C6_chRCC_all_de_novo.csv --db_matched_file data/C6_chRCC_DB-matched_peptides.csv --results_file data/C6_chRCC_CONTROL_full_proteome_scan.xls --reference_proteome_file ../data/SPHu.fasta
+python3 extract_unmatched_peptides_post-hoc.py --experiment_name N1_Normal --all_denovo_file data/N1_Normal_all_de_novo.csv --db_matched_file data/N1_Normal_DB-matched_peptides.csv --results_file data/N1_Normal_CONTROL_full_proteome_scan.xls --reference_proteome_file ../data/SPHu.fasta
+python3 extract_unmatched_peptides_post-hoc.py --experiment_name C6_chRCC --all_denovo_file data/C6_chRCC_all_de_novo.csv --db_matched_file data/C6_chRCC_DB-matched_peptides.csv --results_file data/C6_chRCC_CONTROL_full_proteome_scan.xls --reference_proteome_file ../data/SPHu.fasta
 
 2-3h per 100k peptides.
 """
@@ -96,4 +96,4 @@ if __name__ == '__main__':
         peptide = values['Peptide']
         unmatched.append(matched_genome(ref_db, peptide))
 
-    unmatched_prior_to_scan[unmatched].to_csv(results_path + os.sep + 'Unmatched_denovo_peptides.csv', index=False)
+    unmatched_prior_to_scan[unmatched].to_csv(results_path + os.sep + parameters.experiment_name + '_unmatched_denovo_peptides.csv', index=False)
