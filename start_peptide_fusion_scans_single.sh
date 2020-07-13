@@ -1,7 +1,7 @@
 # User configured experiment name and paths to DB-matched and de novo files
-EXPERIMENTS=('N1_Normal')
-DENOVO_FILES=('data/N1_Normal/N1_Normal_all_de_novo.csv')
-DB_MATCHED_FILES=('data/N1_Normal/N1_Normal_DB-matched_peptides.csv')
+EXPERIMENTS=('N1_Normal') # something to name the output folder, e.g. the experiment name
+DENOVO_FILES=('data/N1_Normal/N1_Normal_all_de_novo.csv') # path to denovo peptides file
+DB_MATCHED_FILES=('data/N1_Normal/N1_Normal_DB-matched_peptides.csv') # path to DB-matched peptides file
 
 # User configured values that will be used for each run
 MIN_PEPTIDE_LENGTH=7
